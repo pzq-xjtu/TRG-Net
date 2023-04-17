@@ -9,7 +9,7 @@ Specifically,
 ![Controlling Rain with Respect to Width](https://github.com/pzq-xjtu/TRG-Net/blob/main/2.Controlling%20Rain%20with%20Respect%20to%20Width.gif)
 
 **Controlling Rain with Respect to Length**
-![Controlling Rain with Respect to Length](https://github.com/pzq-xjtu/TRG-Net/blob/main/2.Controlling%20Rain%20with%20Respect%20to%20Length.gif)
+![Controlling Rain with Respect to Length](https://github.com/pzq-xjtu/TRG-Net/blob/main/3.Controlling%20Rain%20with%20Respect%20to%20Length.gif)
 
 **Controlling Rain with Respect to Sparsity**
-![Controlling Rain with Respect to Sparsity](https://github.com/pzq-xjtu/TRG-Net/blob/main/2.Controlling%20Rain%20with%20Respect%20to%20Sparsity.gif)
+![Controlling Rain with Respect to Sparsity](https://github.com/pzq-xjtu/TRG-Net/blob/main/4.Controlling%20Rain%20with%20Respect%20to%20Sparsity.gif)
