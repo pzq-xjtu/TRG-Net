@@ -1,0 +1,9 @@
+guided_filter_pytorch==3.7.5
+h5py==3.9.0
+numpy==1.24.4
+opencv_python==4.9.0.80
+Pillow==10.3.0
+PyYAML==6.0.1
+scipy==1.13.0
+tensorboardX==2.6.2.2
+tqdm==4.61.2

@@ -1,0 +1,38 @@
+name: TRGNet_origin_TVx1_Rain100L_sagan
+manual_seed: 1
+gpu_id: "0"
+
+datasets:
+  name: Rain100L
+  type: paired
+  data_path: ./datasets/Rain100L/train/rain
+  gt_path: ./datasets/Rain100L/train/norain
+
+  patchSize: 128
+  workers: 16
+  batchSize: 10
+  
+model:
+  ker_num: 6
+  dictNum: 30
+  channel_num: 30
+  theta_num: 1
+  use_rot_tv: True
+
+train:
+  epoch: 0
+  niter: 200
+  milestone: [200, 280, 350]
+  lrD: !!float 4e-4
+  lrG: !!float 1e-4
+  n_dis: 5
+  ndf: 64
+  adv_loss: 'wgan-gp'
+  lambda_gp: 10
+  PreTrainstep: 60
+  lambda_tv: 1.0
+
+path:
+  pretrain_model: ~
+  strict_load_g: True
+  resume_state: ~
